@@ -1,0 +1,32 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #fEfEfE;
+    color: #333;
+}
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 140px;
+    padding-left: 140px;
+}
+@media only screen and (max-width: 600px) {
+    .content {
+        padding-top: 70px;
+        padding-left: 70px;
+    }
+}
+h1 {
+    margin-top: 0;
+}
+a, a:visited {
+    color: inherit;
+}
+ul.social-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.social-links li {
+    padding-right: 14px;
+    display: inline;
+}
